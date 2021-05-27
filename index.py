@@ -11,7 +11,7 @@ headers_fipe = {
     'Content-Type': 'application/json', 
     'User-Agent' : 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
 }
-PORT = 9091
+PORT = 7091
 API_KEY = '$2y$10$8IAZn7HKq7QJWbh37N3GOOeRVv.sM9tcTLBRYwRuf2g98olRyqieW'
 
 app.config['DEBUG'] = True
