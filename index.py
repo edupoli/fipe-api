@@ -12,7 +12,7 @@ headers_fipe = {
     'User-Agent' : 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
 }
 PORT = 7091
-API_KEY = '$2y$10$8IAZn7HKq7QJWbh37N3GOOeRVv.sM9tcTLBRYwRuf2g98olRyqieW'
+API_KEY = '$2y$10$Oswm7/Y07Ct7e37bL/lUgOqzxEbB/JBISnOklcdFymZ55eUNqr6JK'
 
 app.config['DEBUG'] = True
 
