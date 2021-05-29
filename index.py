@@ -187,4 +187,4 @@ def ConsultarValorComTodosParametros():
 
     return Response(response)
 
-app.run(host="http://localhost", port=PORT)
+app.run(host="127.0.0.1", port=PORT)
