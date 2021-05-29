@@ -14,7 +14,7 @@ headers_fipe = {
 PORT = 7091
 API_KEY = '$3y$10$8IAZn7HKq7QJWbh37N3GOOeRVv.sM9tcTLBRYwRuf2g98olRyqieW'
 
-app.config['DEBUG'] = True
+app.config['DEBUG'] = False
 
 CORS(app, resources=r'/api/*')
 @app.route('/', methods=['POST', 'GET'])
@@ -187,4 +187,4 @@ def ConsultarValorComTodosParametros():
 
     return Response(response)
 
-app.run(host="0.0.0.0", port=PORT)
+app.run(host="http://localhost", port=PORT)
